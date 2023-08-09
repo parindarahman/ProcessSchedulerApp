@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_burst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Burst Time" />
+
+    <EditText
+        android:id="@+id/edit_arrival"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_burst"
+        android:layout_marginTop="5dp"
+        android:hint="Arrival Time" />
+
+    <EditText
+        android:id="@+id/edit_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_burst"
+        android:layout_marginTop="52dp"
+        android:hint="Priority" />
+
+    <EditText
+        android:id="@+id/edit_quantum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_burst"
+        android:layout_marginTop="98dp"
+        android:hint="Time Quantum" />
+
+
+</RelativeLayout>
